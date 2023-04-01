@@ -113,7 +113,7 @@ int main(void)
 		/*printf("\n");*/
 	}
 
-	printf("\t\tTOTAL ITEMS:\t\%d\n", n);
+	printf("\t\tTOTAL ITEMS:\t%d\n", n);
 	printf("\t\tTOTAL BEFORE DISCOUNT:\t\t\t%.2f\n", totalBeforediscount);
 	printf("\t\tTotal Discount awarded:\t\t\t%.2f\n", totalDiscount);
 	printf("\t\t__________________________________________________\n");
@@ -125,7 +125,7 @@ int main(void)
 
 	printf("\t\tCODE\tRATE\t\tVATABLE AMT\tVAT AMT\n");
 	printf("\t\t__________________________________________________\n");
-	printf("\t\tA\t16.00%%\t\t%.2f\t\t%.2f\n", beforeVAT, VAT);
+	printf("\t\tA\t16.00%%\t\t%.2f\t%.2f\n", beforeVAT, VAT);
 	printf("\t\tB\t0.00%%\t\t0.00\t\t0.00\t\n");
 	printf("\t\t__________________________________________________\n\n");
 	
